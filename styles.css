@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff6f0;
+}
+
+.table-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.table-cell-header {
+  color: #b89e9e;
+  font-style: italic;
+  display: none;
+}
+
+.table-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-cell {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 20%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.table-cell:hover {
+  transition: 0.5s ease-out;
+  background-color: #ded3d3;
+}
+.search_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-row_header {
+  background-color: #f55a5a;
+  color: white;
+}
+
+.search-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#search {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  height: 22px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #f55a5a;
+  transition: 0.5s ease-out;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+#columnSelect {
+  margin: 8px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 120px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff9696;
+}
+
+@media screen and (max-width: 420px) {
+  .search_wrapper {
+    flex-direction: column;
+  }
+  .search_block {
+    flex-direction: column;
+  }
+  .table-row.table-row_header {
+    display: none;
+  }
+  .table-cell-header {
+    display: block;
+  }
+  .table-row {
+    display: block;
+    border-bottom: 2px dashed #f55a5a;
+  }
+  .table-cell {
+    display: block;
+    border-top: 1px solid #ccc;
+    width: 100%;
+  }
+  .header {
+    display: block;
+  }
+}

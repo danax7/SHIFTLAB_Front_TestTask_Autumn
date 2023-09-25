@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHIFTLAB_Front_TestTask</title>
+    <link type="text/css" rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="table-container">
+      <div class="table-row table-row_header">
+        <div class="table-cell">ID</div>
+        <div class="table-cell">Имя</div>
+        <div class="table-cell">Фамилия</div>
+        <div class="table-cell">Должность</div>
+        <div class="table-cell">Возраст</div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell">
+          <div class="table-cell-header">ID</div>
+          <div class="table-table-cell-content">1</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Имя</div>
+          <div class="table-cell-content">Артем</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Фамилия</div>
+          <div class="table-cell-content">Васильев</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Должность</div>
+          <div class="table-cell-content">DevOps</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Возраст</div>
+          <div class="table-cell-content">23</div>
+        </div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell">
+          <div class="table-cell-header">ID</div>
+          <div class="table-cell-content">2</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Имя</div>
+          <div class="table-cell-content">Гордей</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Фамилия</div>
+          <div class="table-cell-content">Точинский</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Должность</div>
+          <div class="table-cell-content">Backend</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Возраст</div>
+          <div class="table-cell-content">21</div>
+        </div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell">
+          <div class="table-cell-header">ID</div>
+          <div class="table-cell-content">3</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Имя</div>
+          <div class="table-cell-content">Мария</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Фамилия</div>
+          <div class="table-cell-content">Сидорова</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Должность</div>
+          <div class="table-cell-content">Frontend</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Возраст</div>
+          <div class="table-cell-content">25</div>
+        </div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell">
+          <div class="table-cell-header">ID</div>
+          <div class="table-cell-content">4</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Имя</div>
+          <div class="table-cell-content">Елена</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Фамилия</div>
+          <div class="table-cell-content">Иванова</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Должность</div>
+          <div class="table-cell-content">UI/UX</div>
+        </div>
+        <div class="table-cell">
+          <div class="table-cell-header">Возраст</div>
+          <div class="table-cell-content">30</div>
+        </div>
+      </div>
+    </div>
+    <div class="search_wrapper">
+      <div class="search_block">
+        <select id="columnSelect">
+          <option value="1">ID</option>
+          <option value="2">Имя</option>
+          <option value="3">Фамилия</option>
+          <option value="4">Должность</option>
+          <option value="5">Возраст</option>
+        </select>
+        <input type="text" id="search" placeholder="Поиск..." />
+        <button id="searchButton">Найти</button>
+      </div>
+      <p id="result">Результаты: 0</p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
