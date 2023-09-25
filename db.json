@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ID",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "position": "Должность",
+    "age": "Возраст"
+  },
+  {
+    "id": 1,
+    "name": "Артем",
+    "surname": "Васильев",
+    "position": "DevOps",
+    "age": 23
+  },
+  {
+    "id": 2,
+    "name": "Гордей",
+    "surname": "Точинский",
+    "position": "Backend",
+    "age": 21
+  },
+  {
+    "id": 3,
+    "name": "Мария",
+    "surname": "Сидорова",
+    "position": "Frontend",
+    "age": 25
+  },
+  {
+    "id": 4,
+    "name": "Елена",
+    "surname": "Иванова",
+    "position": "UI/UX",
+    "age": 30
+  }
+]

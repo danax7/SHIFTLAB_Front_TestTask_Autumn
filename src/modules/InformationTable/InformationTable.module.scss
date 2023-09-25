@@ -1,0 +1,28 @@
+.table_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.search_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.search {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 220px;
+  height: 22px;
+}
+
+button:hover {
+  background-color: #ff9696;
+}

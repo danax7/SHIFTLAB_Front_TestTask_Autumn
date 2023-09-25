@@ -1,0 +1,29 @@
+.table_cell {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 20%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.table_cell.highlighted {
+  background-color: red;
+}
+.header_cell {
+  color: #b89e9e;
+  font-style: italic;
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .header_cell {
+    display: block;
+  }
+
+  .table_cell {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,23 @@
+.table_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-color: #f55a5a;
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .table_row.header {
+    display: none;
+  }
+  .table_row {
+    display: block;
+    border-bottom: 2px dashed #f55a5a;
+  }
+  .header {
+    display: block;
+  }
+}
